@@ -78,7 +78,6 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
-
 *,
 *::before,
 *::after {
@@ -92,7 +91,7 @@
 }
 
 body {
-  /* margin: ; */
+  margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -10825,8 +10824,8 @@ textarea.form-control-lg {
   }
 }
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
@@ -10845,10 +10844,12 @@ header.masthead {
   background-size: cover;
   padding-top: 10rem;
   padding-bottom: 10rem;
+  max-width: 100%;
+  height: max-content;
 }
 header.masthead:before {
   content: "";
-  position: absolute;
+  position: relative;
   background-color: #1c375e;
   height: 100%;
   width: 100%;
@@ -10878,7 +10879,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 6rem;
   }
 }
 

@@ -18,10 +18,12 @@
 
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
+        <nav class="navbar navbar-dark sticky-top bg-dark static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Sehati Komputer</a>
-            </div>
+                <!-- <a class="text" style="text-align: center;" href="#!">Sehati Komputer</a> -->
+                 <h2 class="text-warning text-center">Sehati Komputer</h2>
+            </div> 
+            
         </nav>
 
         <!-- Masthead-->
@@ -29,17 +31,21 @@
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                        <div class="text-center text-white">
+                        <div class="text-center text-white img">
                             <!-- Page heading-->
-                            <h2 class="py-5 my-5"></h2>
+                            
+                            <h2 class=""></h2>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- Icons Grid-->
+        <!-- Ikon penjelasan -->
         <section class="features-icons bg-light text-center">
+            <div class="text mb-3">
+                <h1 class="fw-normal">Selamat Datang di Sehati Komputer</h1>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -51,7 +57,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi bi-cart m-auto text-primary"></i></div>
+                            <div class="features-icons-icon d-flex"><i class="bi bi-cart m-auto text-warning"></i></div>
                             <h3>Penjualan Unit</h3>
                             <p class="lead mb-0">Menyediakan penjualan unit komputer</p>
                         </div>
@@ -65,15 +71,19 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi bi-wrench m-auto text-primary"></i></div>
+                            <div class="features-icons-icon d-flex"><i class="bi bi-wrench m-auto text-warning"></i></div>
                             <h3>Servis Laptop / PC</h3>
                             <p class="lead mb-0">Menerima perbaikan untuk laptop dan PC yang bermasalah</p>
                         </div>
                 </div>
             </div>
+            <div class=" pt-5">
+                    <a href="/pages/katalog/menu_utama.php" class="btn-dark btn fs-5 rounded-4 font text-wrap" >Katalog</a>
+            </div>
+            </div>
         </section>
 
-        <!-- Image Showcases-->
+        <!-- Penjelasan Beserta Gambar-->
         <section class="showcase">
             <div class="container-fluid p-0">
                 <div class="row g-0">
@@ -135,31 +145,39 @@
                             </div>
                         </div>
                     </section> -->
+            <!-- Ikon penjelasan -->
+        <section class="features-icons bg-light text-center">
+            <div class="mb-3">
+                <h1 class="fw-2">Bagaimana ? Tertarik ? Langsung saja tekan tombol dibawah ini </h1>
+            </div>
+            <div class="container">
+            <div class="d-grid pt-5">
+                    <a href="/pages/katalog/menu_utama.php" class="btn btn-warning btn-sm col-6 mx-auto rounded-4 font text-wrap fs-4 fw-bold" >Menuju Katalog</a>
+            </div>
+            </div>
+        </section>
         
         <!-- Footer-->
         <footer class="footer bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                        <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
-                        </ul>
+                        
                         <p class="text-muted small mb-4 mb-lg-0">&copy; Sehati Komputer 2025. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
+
+                            <!-- facebook -->
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                                <a href="https://www.facebook.com/people/Sehati-Komputer/100064725226978/"><i class="bi-facebook fs-3"></i></a>
                             </li>
+
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                                <a href="#!"><i class="bi-map fs-3"></i></a>
                             </li>
+
+                            <!-- instagram -->
                             <li class="list-inline-item">
                                 <a href="https://www.instagram.com/sehaticomputer_smd/"><i class="bi-instagram fs-3"></i></a>
                             </li>
@@ -168,14 +186,11 @@
                 </div>
             </div>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
