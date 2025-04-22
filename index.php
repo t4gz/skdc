@@ -14,11 +14,12 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
 
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-dark sticky-top bg-dark static-top">
+        <nav class="navbar navbar-dark sticky-top bg-dark">
             <div class="container">
                 <!-- <a class="text" style="text-align: center;" href="#!">Sehati Komputer</a> -->
                  <h2 class="text-warning text-center">Sehati Komputer</h2>
