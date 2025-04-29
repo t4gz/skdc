@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../../../connector/koneksi.php';
 
-$query = "SELECT * FROM produk WHERE merk_produk = 'acer' AND kategori_id = '2'";
+$query = "SELECT * FROM produk WHERE merk_produk = 'epson' AND kategori_id = '3'";
 $result = mysqli_query($kon, $query);
 ?>
 

@@ -93,9 +93,9 @@
                                         </div>
                                         <div class="col-6">
                                             <ul>
-                                                <li><a href="./kategori_komputer.php" class="btn btn-sm btn-dark mb-2">Aksesoris</a></li>
-                                                <li><a href="./kategori_laptop.php" class="btn btn-sm btn-dark mb-2">Kabel Konektor</a></li>
-                                                <li><a href="./kategori_printer.php" class="btn btn-sm btn-dark">Dan lainnya</a></li>
+                                                <li><a href="./kategori_aksesoris.php" class="btn btn-sm btn-dark mb-2">Aksesoris</a></li>
+                                                <li><a href="./kategori_kabel.php" class="btn btn-sm btn-dark mb-2">Kabel</a></li>
+                                                <li><a href="#" class="btn btn-sm btn-dark">Dan lainnya</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -125,13 +125,13 @@
                                         <div class="col-sm-4">
                                             <ul>
                                                 <li>
-                                                    <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order!" class="btn btn-sm btn-dark mb-2  ">Whatsapp</a>
+                                                    <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order!" class="btn btn-sm btn-dark mb-2 btn-outline-success ">Whatsapp</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.instagram.com/sehaticomputer_smd/" class="btn btn-sm btn-dark mb-2 ">Instagram</a>
+                                                    <a href="https://www.instagram.com/sehaticomputer_smd/" class="btn btn-sm btn-dark mb-2 btn-outline-danger ">Instagram</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.facebook.com/people/Sehati-Komputer/100064725226978/" class="btn btn-sm btn-dark mb-2">Facebook</a>
+                                                    <a href="https://www.facebook.com/people/Sehati-Komputer/100064725226978/" class="btn btn-sm btn-dark mb-2 btn-outline-primary">Facebook</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -139,10 +139,10 @@
                                         <div class="col-sm-4">
                                             <ul>
                                                 <li>
-                                                    <a href="https://shopee.co.id/sehati_komputer" class="btn btn-sm btn-dark mb-2">Shopee</a>
+                                                    <a href="https://shopee.co.id/sehati_komputer" class="btn btn-sm btn-dark mb-2 btn-outline-warning">Shopee</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.tokopedia.com/sehatikomputer" class="btn btn-sm btn-dark mb-2">Tokopedia</a>
+                                                    <a href="https://www.tokopedia.com/sehatikomputer" class="btn btn-sm btn-dark mb-2 btn-outline-success">Tokopedia</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -150,7 +150,7 @@
                                         <div class="col-sm-4">
                                             <ul>
                                                 <li>
-                                                    <a href="https://maps.app.goo.gl/1wUbEEBd7H68jtoe8" class="btn btn-sm btn-dark mb-2">Alamat Toko</a>
+                                                    <a href="https://maps.app.goo.gl/1wUbEEBd7H68jtoe8" class="btn btn-dark mb-2 btn-sm">Alamat Toko</a>
                                                 </li>
                                             </ul>   
                                         </div>
