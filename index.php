@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class=" pt-5">
-                    <a href="/pages/katalog/menu_utama.php" class="btn-dark btn fs-5 rounded-4 font text-wrap" >Katalog</a>
+                    <a href="C:\xampp\htdocs\Sehati-Komputer\skdc\pages/katalog/menu_utama.php" class="btn-dark btn fs-5 rounded-4 font text-wrap" >Katalog</a>
             </div>
             </div>
         </section>
