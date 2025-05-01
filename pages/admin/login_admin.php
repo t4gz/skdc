@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB Aplikasi Pegadaian</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../../css/login.css">
 </head>
 <body>
     <div class="login-container">
         <h2>Sehati Komputer</h2>
-        <form action="dahsboard-admin.php" method="POST">
+        <form action="admin.php" method="POST">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" name="uname" required>
