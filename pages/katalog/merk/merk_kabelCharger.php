@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../../../connector/koneksi.php';
 
-$query = "SELECT * FROM produk WHERE merk_produk = 'aio' AND kategori_id = '1'";
+$query = "SELECT * FROM produk WHERE merk_produk = 'charger' AND  kategori_id = '5'";
 $result = mysqli_query($kon, $query);
 ?>
 
@@ -29,7 +29,7 @@ $result = mysqli_query($kon, $query);
                                 </div>
                             </div>
                             <hr>
-                            <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order%20komputer%20AIO!" class="btn btn-dark btn-outline-success">Pesan Sekarang !</a>
+                            <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order%20Kabel%20charger!" class="btn btn-dark btn-outline-success">Pesan Sekarang !</a>
                         </div>
                     </div>  
                 </div>
