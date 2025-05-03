@@ -95,12 +95,21 @@
                                             <ul>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisCampur" class="btn btn-sm btn-dark mb-2">Semua Tipe</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisMouse" class="btn btn-sm btn-dark mb-2">Mouse</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisFlashdisk" class="btn btn-sm btn-dark mb-2">Flashdisk</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisHdd" class="btn btn-sm btn-dark mb-2">HDD</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisSsd" class="btn btn-sm btn-dark mb-2">SSD</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisWifi" class="btn btn-sm btn-dark mb-2">WiFi</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisTas" class="btn btn-sm btn-dark mb-2">Tas</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-6">
                                             <ul>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisKeyboard" class="btn btn-sm btn-dark mb-2">Keyboard</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisHeadset" class="btn btn-sm btn-dark mb-2">Headset</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisSpeaker" class="btn btn-sm btn-dark mb-2">Speaker</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisCasing" class="btn btn-sm btn-dark mb-2">Casing</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisSoftware" class="btn btn-sm btn-dark mb-2">Software</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisAtk" class="btn btn-sm btn-dark mb-2">ATK</a></li>
                                             </ul>
                                         </div>
                                     </div>

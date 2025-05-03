@@ -95,7 +95,6 @@
                                             <ul>
                                                 <li><a href="./kategori_aksesoris.php" class="btn btn-sm btn-dark mb-2">Aksesoris</a></li>
                                                 <li><a href="./kategori_kabel.php" class="btn btn-sm btn-dark mb-2">Kabel</a></li>
-                                                <li><a href="#" class="btn btn-sm btn-dark">Dan lainnya</a></li>
                                             </ul>
                                         </div>
                                     </div>

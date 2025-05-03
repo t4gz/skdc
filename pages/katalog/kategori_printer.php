@@ -98,14 +98,12 @@
                                                 <li><a href="kategori_printer.php?p=merk_PrinterCanon" class="btn btn-sm btn-dark mb-2">Canon</a></li>
                                             </ul>
                                         </div>
-                                        <!-- <div class="col-6">
+                                        <div class="col-6">
                                             <ul>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopDell" class="btn btn-sm btn-dark mb-2">Dell</a></li>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopLenovo" class="btn btn-sm btn-dark mb-2">Lenovo</a></li>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopHP" class="btn btn-sm btn-dark mb-2">HP</a></li>
-
+                                                <li><a href="kategori_printer.php?p=merk_PrinterCartridge" class="btn btn-sm btn-dark mb-2">Cartridge</a></li>
+                                                <li><a href="kategori_printer.php?p=merk_PrinterTinta" class="btn btn-sm btn-dark mb-2">Tinta</a></li>
                                             </ul>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                                

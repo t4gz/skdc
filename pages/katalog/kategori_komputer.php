@@ -74,7 +74,7 @@
                                         <h6 class="mt-3 ml-3 font-weight-normal text-warning">Daftar Merk - Merk Komputer</h6>
                                     </div>
                                     <div class="col-6">
-                                        <a href="./menu_utama.php" class="btn btn-sm btn-danger mt-3"><</a>
+                                        <a href="./menu_utama.php" class="btn btn-sm btn-danger mt-3">Kembali</a>
                                     </div>
                                 </div>
                                 
@@ -93,16 +93,14 @@
                                             <ul>
                                                 <li><a href="kategori_komputer.php?p=merk_KomputerCampur" class="btn btn-sm btn-dark mb-2">Semua tipe dan merk</a></li>
                                                 <li><a href="kategori_komputer.php?p=merk_KomputerRakitan" class="btn btn-sm btn-dark mb-2">Rakitan</a></li>
-                                                <li><a href="kategori_komputer.php?p=merk_KomputerAIO" class="btn btn-sm btn-dark">All in one</a></li>
                                             </ul>
                                         </div>
-                                        <!-- <div class="col-6">
+                                        <div class="col-6">
                                             <ul>
-                                                <li><a href="kategori_komputer.php?p=merk_lenovo" class="btn btn-sm btn-dark mb-2">Lenovo</a></li>
-                                                <li><a href="kategori_komputer.php?p=merk_hp" class="btn btn-sm btn-dark mb-2">HP</a></li>
-                                                <li><a href="./kategori_printer.php" class="btn btn-sm btn-dark">Dan lainnya</a></li>
+                                                <li><a href="kategori_komputer.php?p=merk_KomputerAIO" class="btn btn-sm btn-dark">All In One</a></li>
+                                                <li><a href="kategori_komputer.php?p=merk_KomputerAsus" class="btn btn-sm btn-dark mb-2">Asus</a></li>
                                             </ul>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                                
