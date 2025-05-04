@@ -96,17 +96,23 @@ if (!isset($_SESSION['username'])) {
                     <div class="container-fluid">
                         <?php
                             $pages_dir = 'data';
+                            $pages_dir = 'data';
                             if (!empty($_GET['p'])) {
-                                $pages = scandir($pages_dir, 0);
-                                unset($pages[0], $pages[1]);
                                 $p = $_GET['p'];
-                                if (in_array($p.".php", $pages)) {
-                                    include($pages_dir.'/'.$p.'.php');
-                                } else {
+                            
+                                // Cek dulu apakah ada di dalam folder data/
+                                if (file_exists("$pages_dir/$p.php")) {
+                                    include("$pages_dir/$p.php");
+                                }
+                                // Kalau tidak ada, cek di root folder admin
+                                else if (file_exists("$p.php")) {
+                                    include("$p.php");
+                                }
+                                else {
                                     echo "Halaman tidak ditemukan";
                                 }
                             } else {
-                                include($pages_dir.'/listbarang.php');
+                                include("$pages_dir/listbarang.php");
                             }
                         ?>
                     </div>

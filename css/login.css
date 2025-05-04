@@ -1,19 +1,21 @@
 body {
-    background-image: url('../assets/img/bg.login-admin.jpg'); 
+    background-image: url('../assets/img/bg-admin.jpg');
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0; 
 }
+
 
 .login-container {
     max-width: 400px;
     width: 90%; 
     padding: 30px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
