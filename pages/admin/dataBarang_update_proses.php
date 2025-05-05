@@ -11,6 +11,8 @@ $merk_produk = isset($_POST['merk_produk']) ? $_POST['merk_produk'] : '';
 $toko_id = isset($_POST['toko_id']) ? $_POST['toko_id'] : '';
 $kategori_id = isset($_POST['kategori_id']) ? $_POST['kategori_id'] : '';
 $harga = isset($_POST['harga']) ? $_POST['harga'] : 0;
+$harga = str_replace(['.', ','], '', $harga);
+$harga = (int)$harga;
 $stok = isset($_POST['stok']) ? $_POST['stok'] : 0;
 $deskripsi = isset($_POST['deskripsi']) ? $_POST['deskripsi'] : '';
 $id = isset($_POST['id']) ? $_POST['id'] : 0;
@@ -38,7 +40,7 @@ if (!empty($gambar)) {
         if (!$stmt) {
             die("Prepare failed: " . $kon->error);
         }
-        $stmt->bind_param("ssiisisssi", $nama, $kode, $merk_produk, $toko_id, $kategori_id, $harga, $stok, $gambar_unik, $deskripsi, $id);
+$stmt->bind_param("sssiiiissi", $nama, $kode, $merk_produk, $toko_id, $kategori_id, $harga, $stok, $gambar_unik, $deskripsi, $id);
     } else {
         echo "Gagal upload gambar.";
         exit;
@@ -49,7 +51,7 @@ if (!empty($gambar)) {
     if (!$stmt) {
         die("Prepare failed: " . $kon->error);
     }
-    $stmt->bind_param("ssiisissi", $nama, $kode, $merk_produk, $toko_id, $kategori_id, $harga, $stok, $deskripsi, $id);
+$stmt->bind_param("sssiiissi", $nama, $kode, $merk_produk, $toko_id, $kategori_id, $harga, $stok, $deskripsi, $id);
 }
 
 if ($stmt->execute()) {

@@ -11,6 +11,8 @@ $merk_produk = $_POST['merk_produk'];
 $toko_id = $_POST['toko_id'];
 $kategori_id = $_POST['kategori_id'];
 $harga = $_POST['harga'];
+$harga = str_replace(['.', ','], '', $harga);
+$harga = (int)$harga;
 $stok = $_POST['stok'];
 $deskripsi = $_POST['deskripsi'];
 

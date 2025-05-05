@@ -71,7 +71,7 @@ $kon->close();
     </div>
     <div class="mb-3">
         <label for="harga" class="form-label">Harga</label>
-        <input type="number" id="harga" name="harga" class="form-control" value="<?php echo htmlspecialchars($produk['harga_produk']); ?>" required>
+        <input type="text" id="harga" name="harga" class="form-control" value="<?php echo htmlspecialchars($produk['harga_produk']); ?>" required>
     </div>
     <div class="mb-3">
         <label for="stok" class="form-label">Stok</label>
