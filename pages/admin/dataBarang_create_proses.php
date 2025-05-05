@@ -36,7 +36,7 @@ if (move_uploaded_file($tmp, $path_gambar)) {
     if (!$stmt) {
         die("Prepare failed: " . $kon->error);
     }
-    $stmt->bind_param("ssiisiss", $nama, $kode, $merk_produk, $toko_id ,$kategori_id, $harga, $stok, $gambar_unik, $deskripsi);
+$stmt->bind_param("sssiiisss", $nama, $kode, $merk_produk, $toko_id ,$kategori_id, $harga, $stok, $gambar_unik, $deskripsi);
 
     if ($stmt->execute()) {
         header("Location: admin.php?p=listbarang"); // Redirect ke halaman list barang
