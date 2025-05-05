@@ -1,11 +1,5 @@
 <?php
-$koneksi = new mysqli("localhost", "root", "", "sk");
-
-// Cek koneksi
-if ($koneksi->connect_error) {
-    die("Connection failed: " . $koneksi->connect_error);
-}
-
+include __DIR__ . '/../../../connector/koneksi.php';
 // Pencarian
 $search_query = "";
 if (isset($_POST['search'])) {
@@ -19,7 +13,7 @@ $offset = ($page - 1) * $limit;
 
 // Query untuk menghitung jumlah total data
 $count_query = "SELECT COUNT(*) as total FROM produk WHERE nama_produk LIKE ? OR kode_produk LIKE ?";
-$stmt_count = $koneksi->prepare($count_query);
+$stmt_count = $kon->prepare($count_query);
 $search_param = '%' . $search_query . '%';
 $stmt_count->bind_param("ss", $search_param, $search_param);
 $stmt_count->execute();
@@ -29,13 +23,13 @@ $total_pages = ceil($total_data / $limit);
 
 // Query untuk mengambil data dengan limit dan offset
 $query = "SELECT * FROM produk WHERE nama_produk LIKE ? OR kode_produk LIKE ? LIMIT ? OFFSET ?";
-$stmt = $koneksi->prepare($query);
+$stmt = $kon->prepare($query);
 $stmt->bind_param("ssii", $search_param, $search_param, $limit, $offset);
 $stmt->execute();
 $result = $stmt->get_result();
 
 if (!$result) {
-    die("Query failed: " . $koneksi->error);
+    die("Query failed: " . $kon->error);
 }
 ?>
 
@@ -79,11 +73,11 @@ if (!$result) {
                                 echo "<td>{$row['kode_produk']}</td>";
                                 echo "<td>Rp " . number_format($row['harga_produk'], 0, ',', '.') . "</td>";
                                 echo "<td>{$row['stok_produk']}</td>";
-                                echo "<td><img src='{$row['image']}' alt='' class='img-thumbnail' width='100' height='60'></td>";
+                                echo "<td><img src='../uploads/{$row['image']}' alt='' class='img-thumbnail' width='150' height='80'></td>";
                                 echo "<td>{$row['deskripsi_produk']}</td>";
                                 echo "<td>
                                         <div class='btn-group' role='group'>
-                                            <a href='dataBarang_update.php?id={$row['produk_id']}' class='btn btn-sm btn-success'>EDIT</a>
+<a href='admin.php?p=dataBarang_update&id={$row['produk_id']}' class='btn btn-sm btn-success'>EDIT</a>
                                             <a href='dataBarang_delete.php?id={$row['produk_id']}' class='btn btn-sm btn-danger'>HAPUS</a>
                                         </div>
                                       </td>";
@@ -115,5 +109,5 @@ if (!$result) {
 </div>
 
 <?php
-$koneksi->close(); // Tutup koneksi
+$kon->close(); // Tutup kon
 ?>

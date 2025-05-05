@@ -45,7 +45,7 @@ if (!isset($_SESSION['username'])) {
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
-            <div id="content">
+            <div id="content pb-3">
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand bg-dark topbar mb-4 static-top shadow">
