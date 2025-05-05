@@ -75,12 +75,12 @@ if (!$result) {
                                 echo "<td>{$row['stok_produk']}</td>";
                                 echo "<td><img src='../uploads/{$row['image']}' alt='' class='img-thumbnail' width='150' height='80'></td>";
                                 echo "<td>{$row['deskripsi_produk']}</td>";
-                                echo "<td>
-                                        <div class='btn-group' role='group'>
+echo "<td>
+        <div class='btn-group' role='group'>
 <a href='admin.php?p=dataBarang_update&id={$row['produk_id']}' class='btn btn-sm btn-success'>EDIT</a>
-                                            <a href='dataBarang_delete.php?id={$row['produk_id']}' class='btn btn-sm btn-danger'>HAPUS</a>
-                                        </div>
-                                      </td>";
+<a href='dataBarang_delete.php?id={$row['produk_id']}' class='btn btn-sm btn-danger' onclick='return confirm(\"Apakah Anda yakin ingin menghapus produk ini?\");'>HAPUS</a>
+        </div>
+      </td>";
                                 echo "</tr>";
                                 $no++;
                             }
