@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Sehati Komputer</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/1-removebg-preview.png"/>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class=" pt-5">
-                    <a href="/pages/katalog/menu_utama.php" class="btn-dark btn fs-5 rounded-4 font text-wrap" >Katalog</a>
+                    <a href="pages/katalog/menu_utama.php" class="btn-dark btn fs-5 rounded-4 font text-wrap" >Katalog</a>
             </div>
             </div>
         </section>
