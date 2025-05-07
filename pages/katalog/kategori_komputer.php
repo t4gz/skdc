@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
 
-    <title>Komputer - Sehati Komputer</title>
+    <title>Komputer - Sehati Computer</title>
 
     <style>
         .blackbg{
@@ -97,7 +97,7 @@
                                         </div>
                                         <div class="col-6">
                                             <ul>
-                                                <li><a href="kategori_komputer.php?p=merk_KomputerAIO" class="btn btn-sm btn-dark">All In One</a></li>
+                                                <li><a href="kategori_komputer.php?p=merk_KomputerAIO" class="btn btn-sm btn-dark mb-2">All In One</a></li>
                                                 <li><a href="kategori_komputer.php?p=merk_KomputerAsus" class="btn btn-sm btn-dark mb-2">Asus</a></li>
                                             </ul>
                                         </div>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Sehati Komputer</title>
+        <title>Sehati Computer</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/1-removebg-preview.png"/>
         <!-- Bootstrap icons-->
@@ -21,31 +21,31 @@
         <!-- Navigation-->
         <nav class="navbar navbar-dark sticky-top bg-dark">
             <div class="container">
-                <!-- <a class="text" style="text-align: center;" href="#!">Sehati Komputer</a> -->
-                 <h2 class="text-warning text-center">Sehati Komputer</h2>
+                <!-- <a class="text" style="text-align: center;" href="#!">Sehati Computer</a> -->
+                 <h2 class="text-warning text-center">Sehati Computer</h2>
             </div> 
             
         </nav>
 
         <!-- Masthead-->
-        <header class="masthead">
+        <!-- <header class="masthead">
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                        <div class="text-center text-white img">
+                        <div class="text-center text-white img"> -->
                             <!-- Page heading-->
                             
-                            <h2 class=""></h2>
+                            <!-- <h2 class=""></h2>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> -->
 
         <!-- Ikon penjelasan -->
         <section class="features-icons bg-light text-center">
             <div class="text mb-3">
-                <h1 class="fw-normal">Selamat Datang di Sehati Komputer</h1>
+                <h1 class="fw-normal">Selamat Datang di Sehati Computer</h1>
             </div>
             <div class="container">
                 <div class="row">
@@ -98,7 +98,7 @@
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/laptop.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2><i class="bi bi-cart m-auto text-dark"></i> Penjualan Unit</h2>
-                        <p class="lead mb-0">Di Sehati Komputer Menyediakan banyak opsi perangkat elektronik yang anda butuhkan. Anda butuh Laptop bagus ? Kita ada. Anda ingin merakit komputer sesuai keinginan anda ? Kami siap membantu. dan masih banyak lagi, tunggu apa lagi. Ayo ke Sehati Komputer.</p>
+                        <p class="lead mb-0">Di Sehati Computer Menyediakan banyak opsi perangkat elektronik yang anda butuhkan. Anda butuh Laptop bagus ? Kita ada. Anda ingin merakit komputer sesuai keinginan anda ? Kami siap membantu. dan masih banyak lagi, tunggu apa lagi. Ayo ke Sehati Computer.</p>
                     </div>
                 </div>
                 <div class="row g-0">
@@ -112,42 +112,13 @@
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/reparasi.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2> <i class="bi bi-wrench m-auto text-dark"></i> Servis Laptop / PC</h2>
-                        <p class="lead mb-0">Anda mengalami kerusakan pada laptop ataupun PC ? Di Sehati Komputer siap melayani perbaikan perangkat tersebut.</p>
+                        <p class="lead mb-0">Anda mengalami kerusakan pada laptop ataupun PC ? Di Sehati Computer siap melayani perbaikan perangkat tersebut.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Testimonials-->
-                    <!-- <section class="testimonials text-center bg-light">
-                        <div class="container">
-                            <h2 class="mb-5">What people are saying...</h2>
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
-                                        <h5>Margaret E.</h5>
-                                        <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
-                                        <h5>Fred S.</h5>
-                                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
-                                        <h5>Sarah W.</h5>
-                                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
-            <!-- Ikon penjelasan -->
-        <section class="features-icons bg-light text-center">
+
+        <!-- <section class="features-icons bg-light text-center">
             <div class="mb-3">
                 <h1 class="fw-2">Bagaimana ? Tertarik ? Langsung saja tekan tombol dibawah ini </h1>
             </div>
@@ -156,7 +127,7 @@
                     <a href="/pages/katalog/menu_utama.php" class="btn btn-warning btn-sm col-6 mx-auto rounded-4 font text-wrap fs-4 fw-bold" >Menuju Katalog</a>
             </div>
             </div>
-        </section>
+        </section> -->
         
         <!-- Footer-->
         <footer class="footer bg-light">
@@ -164,7 +135,7 @@
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Sehati Komputer 2025. All Rights Reserved.</p>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Sehati Computer 2025. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
