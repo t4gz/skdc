@@ -125,7 +125,7 @@
                             if(in_array($p.".php", $pages)){
                                 include($pages_dir.'/'.$p.'.php');
                             }else{
-                                echo "Halaman tidak ditemukan";
+                                echo "<h1 class='text-danger'>Halaman tidak ditemukan</h1>";
                             }
                             }
                         ?>

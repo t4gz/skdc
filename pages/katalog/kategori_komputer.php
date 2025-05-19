@@ -98,7 +98,7 @@
                                         <div class="col-6">
                                             <ul>
                                                 <li><a href="kategori_komputer.php?p=merk_KomputerAIO" class="btn btn-sm btn-dark mb-2">All In One</a></li>
-                                                <li><a href="kategori_komputer.php?p=merk_KomputerAsus" class="btn btn-sm btn-dark mb-2">Asus</a></li>
+                                                <li><a href="kategori_komputer.php?p=merk_KomputerMonitor" class="btn btn-sm btn-dark mb-2">Monitor</a></li>
                                             </ul>
                                         </div>
                                     </div>

@@ -1,0 +1,5 @@
+produk_id,kategori_id,toko_id,kode_produk,nama_produk,harga_produk,stok_produk,deskripsi_produk,merk_produk,image
+NULL,4,2,21,IPOS 5 PROFESIONAL PROGRAM TOKO,-,8,-,software,NULL
+NULL,4,2,1362,IPOS 4 PROGRAM TOKO,-,7,-,software,NULL
+NULL,4,2,1367,PROGRAM BENGKEL,-,2,-,software,NULL
+NULL,4,2,1364,PROGRAM RESTORAN,-,1,-,software,NULL  

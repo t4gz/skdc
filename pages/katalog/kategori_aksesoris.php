@@ -94,11 +94,12 @@
                                         <div class="col-6">
                                             <ul>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisCampur" class="btn btn-sm btn-dark mb-2">Semua Tipe</a></li>
-                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisMouse" class="btn btn-sm btn-dark mb-2">Mouse</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisWifi" class="btn btn-sm btn-dark mb-2">WiFi</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisProyektor" class="btn btn-sm btn-dark mb-2">Proyektor</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisFlashdisk" class="btn btn-sm btn-dark mb-2">Flashdisk</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisHdd" class="btn btn-sm btn-dark mb-2">HDD</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisSsd" class="btn btn-sm btn-dark mb-2">SSD</a></li>
-                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisWifi" class="btn btn-sm btn-dark mb-2">WiFi</a></li>
+                                                <li><a href="kategori_aksesoris.php?p=merk_AksesorisMouse" class="btn btn-sm btn-dark mb-2">Mouse</a></li>
                                                 <li><a href="kategori_aksesoris.php?p=merk_AksesorisTas" class="btn btn-sm btn-dark mb-2">Tas</a></li>
                                             </ul>
                                         </div>

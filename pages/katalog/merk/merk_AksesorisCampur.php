@@ -20,14 +20,16 @@ $result = mysqli_query($kon, $query);
                             <hr>
                             <p class="card-text my-3"><?php echo htmlspecialchars($row['deskripsi_produk']); ?></p>
                             <hr>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                <p class="card-text fw-bolder fs-1 text-primary">Harga Mulai dari Rp. <?php echo number_format($row['harga_produk'], 0, ',', '.'); ?></p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p class="card-text text-center">Stok: <?php echo htmlspecialchars($row['stok_produk']); ?></p>
-                                </div>
-                            </div>
+                            <p class="card-text fw-bolder fs-1 text-primary">Harga Rp. <?php echo number_format($row['harga_produk'], 0, ',', '.'); ?></p>
+                            <p class="card-text text-left">
+                                        <?php 
+                                            if ($row['stok_produk'] < 1) {
+                                                echo "<div class='text-danger'>Stok Habis</div>";
+                                            } else {
+                                                echo "<div class='text-success'>Stok Tersedia</div>";
+                                            }
+                                        ?>
+                            </p>
                             <hr>
                             <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order%20Aksesoris!" class="btn btn-dark btn-outline-success">Pesan Sekarang !</a>
                         </div>
