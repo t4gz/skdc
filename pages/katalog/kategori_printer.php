@@ -14,7 +14,7 @@
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
 
-    <title>Komputer - Sehati Komputer</title>
+    <title>Komputer - Sehati Computer</title>
 
     <style>
         .blackbg{
@@ -98,14 +98,12 @@
                                                 <li><a href="kategori_printer.php?p=merk_PrinterCanon" class="btn btn-sm btn-dark mb-2">Canon</a></li>
                                             </ul>
                                         </div>
-                                        <!-- <div class="col-6">
+                                        <div class="col-6">
                                             <ul>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopDell" class="btn btn-sm btn-dark mb-2">Dell</a></li>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopLenovo" class="btn btn-sm btn-dark mb-2">Lenovo</a></li>
-                                                <li><a href="kategori_laptop.php?p=merk_LaptopHP" class="btn btn-sm btn-dark mb-2">HP</a></li>
-
+                                                <li><a href="kategori_printer.php?p=merk_PrinterCartridge" class="btn btn-sm btn-dark mb-2">Cartridge</a></li>
+                                                <li><a href="kategori_printer.php?p=merk_PrinterTinta" class="btn btn-sm btn-dark mb-2">Tinta</a></li>
                                             </ul>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                                
@@ -127,7 +125,7 @@
                             if(in_array($p.".php", $pages)){
                                 include($pages_dir.'/'.$p.'.php');
                             }else{
-                                echo "Halaman tidak ditemukan";
+                                echo "<h1 class='text-danger'>Halaman tidak ditemukan</h1>";
                             }
                             }
                         ?>

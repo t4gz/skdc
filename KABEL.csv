@@ -1,0 +1,14 @@
+produk_id,kategori_id,toko_id,kode_produk,nama_produk,harga_produk,stok_produk,deskripsi_produk,merk_produk,image
+NULL,5,2,435,KABEL PRINTER 1.5M,-,5,-,kabelprinter,NULL
+NULL,5,2,1173,KABEL PRINTER 3M,-,1,-,kabelprinter,NULL
+NULL,5,2,1861,KABEL PRINTER 5M,-,8,-,kabelprinter,NULL
+NULL,5,2,1862,KABEL PRINTER 10M,-,4,-,kabelprinter,NULL
+NULL,5,2,2596,KABEL USB TO USB 1.5M,-,1,-,kabelusb,NULL
+NULL,5,2,434,KABEL USB TO USB 3M,-,11,-,kabelusb,NULL
+NULL,5,2,433,KABEL USB TO USB 5M,-,5,-,kabelusb,NULL
+NULL,5,2,514,KABEL USB TO USB 10M,-,6,-,kabelusb,NULL
+NULL,5,2,4091,CONVERTER 8 PORT PROFFTECH,-,2,-,kabelkonverter,NULL
+NULL,5,2,4021,CONVERTER 4 IN 1,-,1,-,kabelkonverter,NULL
+NULL,5,2,1762,CONVERTER HDMI TO VGA,-,7,-,kabelkonverter,NULL
+NULL,5,2,970,CONVERTER USB TO HDMI,-,2,-,kabelkonverter,NULL
+NULL,5,2,4165,CONVERTER USB TO AV,-,10,-,kabelkonverter,NULL

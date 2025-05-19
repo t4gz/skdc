@@ -19,7 +19,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
-    <title>Admin - Sehati Komputer</title>
+    <title>Admin - Sehati Computer</title>
     <style>
         .blackbg {
             background-color: #000;
@@ -76,12 +76,12 @@ if (!isset($_SESSION['username'])) {
                         <div class="col-sm-6 mx-auto">
                             <div class="card shadow mb-5">
                                 <div class="card-header bg-dark py-3 text-center">
-                                    <h6 class="m-0 font-weight-normal text-warning">Selamat datang Panel Admin Digital Sehati Komputer</h6>
+                                    <h6 class="m-0 font-weight-normal text-warning">Selamat datang Panel Admin Digital Sehati Computer</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="m-0">
                                         <p class="text-dark">
-                                            Hi, Panel Admin ini akan memudahkan anda dalam mengatur data barang di Sehati Komputer. 
+                                            Hi, Panel Admin ini akan memudahkan anda dalam mengatur data barang di Sehati Computer. 
                                             Silahkan mulai bernavigasi.
                                         </p>
                                     </div>
@@ -127,7 +127,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="row">
                         <div class="col-6">
                             <div class="copyright text-warning fs-3">
-                                <p style="text-align: start;">Sehati Komputer 2025</p>
+                                <p style="text-align: start;">Sehati Computer 2025</p>
                             </div>
                         </div>
                         <div class="col-6">

@@ -1,0 +1,2 @@
+produk_id,kategori_id,toko_id,kode_produk,nama_produk,harga_produk,stok_produk,deskripsi_produk,merk_produk,image
+NULL,1,1,1477,INFOCUS IN0012SL,5000000,1,-,proyektor,NULL

@@ -14,7 +14,7 @@
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
 
-    <title>Komputer - Sehati Komputer</title>
+    <title>Komputer - Sehati Computer</title>
 
     <style>
         .blackbg{
@@ -96,10 +96,12 @@
                                                 <li><a href="kategori_laptop.php?p=merk_laptopCampur" class="btn btn-sm btn-dark mb-2">Semua Merk</a></li>
                                                 <li><a href="kategori_laptop.php?p=merk_LaptopAsus" class="btn btn-sm btn-dark mb-2">Asus</a></li>
                                                 <li><a href="kategori_laptop.php?p=merk_LaptopAcer" class="btn btn-sm btn-dark mb-2">Acer</a></li>
+                                                <li><a href="kategori_laptop.php?p=merk_LaptopAxioo" class="btn btn-sm btn-dark mb-2">Axioo</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-6">
                                             <ul>
+                                                <li><a href="kategori_laptop.php?p=merk_LaptopAdvan" class="btn btn-sm btn-dark mb-2">Advan</a></li>
                                                 <li><a href="kategori_laptop.php?p=merk_LaptopDell" class="btn btn-sm btn-dark mb-2">Dell</a></li>
                                                 <li><a href="kategori_laptop.php?p=merk_LaptopLenovo" class="btn btn-sm btn-dark mb-2">Lenovo</a></li>
                                                 <li><a href="kategori_laptop.php?p=merk_LaptopHP" class="btn btn-sm btn-dark mb-2">HP</a></li>
