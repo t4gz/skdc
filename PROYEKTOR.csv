@@ -1,0 +1,7 @@
+produk_id,kategori_id,toko_id,kode_produk,nama_produk,harga_produk,stok_produk,deskripsi_produk,merk_produk,image
+NULL,1,1,1477,INFOCUS IN0012SL,5000000,1,-,proyektor,NULL
+NULL,1,2,1477,INFOCUS IN0012SL,5000000,1,-,proyektor,NULL
+NULL,1,2,1846,INFOCUS IN114AA/LUMENS 3800,5350000,1,-,proyektor,NULL
+NULL,1,3,1846,INFOCUS IN114AA/LUMENS 3800,5000000,1,-,proyektor,NULL
+NULL,1,3,1477,INFOCUS IN0012SL,5000000,1,-,proyektor,NULL
+NULL,1,3,3545,INFORCE AN10+,1350000,1,-,proyektor,NULL

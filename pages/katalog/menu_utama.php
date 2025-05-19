@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
 
-    <title>Menu Utama - Sehati Komputer</title>
+    <title>Menu Utama - Sehati Computer</title>
 
     <style>
         .blackbg{
@@ -69,13 +69,13 @@
                     <div class="col-sm-6 mx-auto"> <!-- Added mx-auto class here -->
                         <div class="card shadow mb-4">
                         <div class="card-header bg-dark py-3 text-center">
-                                <h6 class="m-0 font-weight-normal text-warning">Selamat datang di Katalog Digital Sehati Komputer</h6>
+                                <h6 class="m-0 font-weight-normal text-warning">Selamat datang di Katalog Digital Sehati Computer</h6>
                             </div>
                             <div class="card-body">
                                 
                                 <div class="m-0">
                                     <p class="text-dark">
-                                    Hi, Katalog Digital ini akan memudahkan anda dalam melihat dan menelusuri barang di Sehati Komputer. 
+                                    Hi, Katalog Digital ini akan memudahkan anda dalam melihat dan menelusuri barang di Sehati Computer. 
                                     Silahkan mulai bernavigasi.
                                     </p>
                                 </div>
@@ -95,7 +95,6 @@
                                             <ul>
                                                 <li><a href="./kategori_aksesoris.php" class="btn btn-sm btn-dark mb-2">Aksesoris</a></li>
                                                 <li><a href="./kategori_kabel.php" class="btn btn-sm btn-dark mb-2">Kabel</a></li>
-                                                <li><a href="#" class="btn btn-sm btn-dark">Dan lainnya</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -187,7 +186,7 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="copyright text-warning fs-3">
-                            <p style="text-align: start;">Sehati Komputer 2025</p>
+                            <p style="text-align: start;">Sehati Computer 2025</p>
                             </div>
                         </div>
                         <div class="col-6">

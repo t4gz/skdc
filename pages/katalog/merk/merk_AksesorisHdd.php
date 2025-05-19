@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../../../connector/koneksi.php';
 
-$query = "SELECT * FROM produk WHERE merk_produk = 'lenovo' AND kategori_id = '2'";
+$query = "SELECT * FROM produk WHERE merk_produk = 'hdd' AND kategori_id = '4'";
 $result = mysqli_query($kon, $query);
 ?>
 
@@ -16,7 +16,7 @@ $result = mysqli_query($kon, $query);
                         <div class="card-body">
                             <h5 class="card-header bg-dark text-center text-warning"><?php echo htmlspecialchars($row['nama_produk']); ?></h5>
                             <hr>
-                            <img src="../uploads/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['nama_produk']); ?>" class="img-fluid" />
+                            <p class="text-danger">gambar taruh sini ae</p>
                             <hr>
                             <p class="card-text my-3"><?php echo htmlspecialchars($row['deskripsi_produk']); ?></p>
                             <hr>
@@ -31,7 +31,7 @@ $result = mysqli_query($kon, $query);
                                         ?>
                             </p>
                             <hr>
-                            <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order%20laptop%20Lenovo!" class="btn btn-dark btn-outline-success">Pesan Sekarang !</a>
+                            <a href="https://wa.me/+6282115118515?text=Halo,%20saya%20ingin%20order%20hdd!" class="btn btn-dark btn-outline-success">Pesan Sekarang !</a>
                         </div>
                     </div>  
                 </div>

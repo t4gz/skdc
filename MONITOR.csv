@@ -1,0 +1,7 @@
+produk_id,kategori_id,toko_id,kode_produk,nama_produk,harga_produk,stok_produk,deskripsi_produk,merk_produk,image
+NULL,1,1,479,LG 24MR400,1500000,1,-,monitor,NULL
+NULL,1,1,1338,LG 24MR410,1350000,1,-,monitor,NULL
+NULL,1,1,2251,LG 19M38,1150000,1,-,monitor,NULL
+NULL,1,1,225,LG 19M38L,1150000,1,-,monitor,NULL
+NULL,1,1,19,SPC SM 19 HD,1175088,1,-,monitor,NULL
+NULL,1,3,4125,INFORCE 1560W,700000,1,-,monitor,NULL
