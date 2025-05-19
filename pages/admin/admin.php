@@ -94,6 +94,9 @@ if (!isset($_SESSION['username'])) {
                     <br>
 
                     <div class="container-fluid">
+                        <div class="mb-3">
+                            <a href="admin.php?p=kategori_list" class="btn btn-primary">Manajemen Kategori</a>
+                        </div>
                         <?php
                             $pages_dir = 'data';
                             $pages_dir = 'data';
