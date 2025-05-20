@@ -55,6 +55,7 @@ if (!$result) {
                             <th>No.</th>
                             <th>Nama Produk</th>
                             <th>Kode Produk</th>
+                            <th>toko</th>
                             <th>Harga</th>
                             <th>Stok</th>
                             <th>Gambar</th>
@@ -71,6 +72,7 @@ if (!$result) {
                                 echo "<td class='text-center'>{$no}</td>";
                                 echo "<td>{$row['nama_produk']}</td>";
                                 echo "<td>{$row['kode_produk']}</td>";
+                                echo "<td>{$row['toko_produk']}</td>";
                                 echo "<td>Rp " . number_format($row['harga_produk'], 0, ',', '.') . "</td>";
                                 echo "<td>{$row['stok_produk']}</td>";
                                 echo "<td><img src='../uploads/{$row['image']}' alt='' class='img-thumbnail' width='150' height='80'></td>";

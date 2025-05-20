@@ -16,7 +16,7 @@ $result = mysqli_query($kon, $query);
                         <div class="card-body">
                             <h5 class="card-header bg-dark text-center text-warning"><?php echo htmlspecialchars($row['nama_produk']); ?></h5>
                             <hr>
-                            <p class="text-danger">gambar taruh sini ae</p>
+                            <img src="../uploads/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['nama_produk']); ?>" class="img-fluid" />
                             <hr>
                             <p class="card-text my-3"><?php echo htmlspecialchars($row['deskripsi_produk']); ?></p>
                             <hr>
