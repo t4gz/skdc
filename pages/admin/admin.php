@@ -4,7 +4,7 @@ ob_start(); // Untuk output buffering
 
 // Cek apakah pengguna sudah login
 if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
+    header("Location: login_admin.php");
     exit;
 }
 ?>
