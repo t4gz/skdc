@@ -18,7 +18,7 @@ $result = mysqli_query($kon, $query);
                             <hr>
                             <img src="../uploads/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['nama_produk']); ?>" class="img-fluid" />
                             <hr>
-                            <p class="card-text my-3"><?php echo htmlspecialchars($row['deskripsi_produk']); ?></p>
+                            <p class="card-text my-3"><?php echo nl2br(htmlspecialchars($row['deskripsi_produk'])) ?></p>
                             <hr>
                             <p class="card-text fw-bolder fs-1 text-primary">Harga Rp. <?php echo number_format($row['harga_produk'], 0, ',', '.'); ?></p>
                             <p class="card-text text-left">

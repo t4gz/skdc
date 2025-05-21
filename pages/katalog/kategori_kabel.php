@@ -88,7 +88,7 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <ul>
-                                                    <li><a href="kategori_kabel.php?p=merk_kabelCampur" class="btn btn-sm btn-dark mb-2">Semua Merk</a></li>
+                                                    <li><a href="kategori_kabel.php?p=merk_KabelCampur" class="btn btn-sm btn-dark mb-2">Semua Merk</a></li>
                                                     <li><a href="kategori_kabel.php?p=merk_KabelDisplay" class="btn btn-sm btn-dark mb-2">Display</a></li>
                                                     <li><a href="kategori_kabel.php?p=merk_KabelConverter" class="btn btn-sm btn-dark mb-2">Converter</a></li>
                                                     <li><a href="kategori_kabel.php?p=merk_KabelJaringan" class="btn btn-sm btn-dark mb-2">Jaringan</a></li>                                                </ul>

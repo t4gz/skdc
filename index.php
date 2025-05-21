@@ -28,19 +28,18 @@
         </nav>
 
         <!-- Masthead-->
-        <!-- <header class="masthead">
+        <header class="masthead">
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                        <div class="text-center text-white img"> -->
-                            <!-- Page heading-->
-                            
-                            <!-- <h2 class=""></h2>
+                        <div class="text-center text-white img">
+                            <!-- Page heading -->
+                            <h2 class=""></h2>
                         </div>
                     </div>
                 </div>
             </div>
-        </header> -->
+        </header>
 
         <!-- Ikon penjelasan -->
         <section class="features-icons bg-light text-center">

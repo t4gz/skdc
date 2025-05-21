@@ -18,7 +18,7 @@ $result = mysqli_query($kon, $query);
                             <hr>
                             <p class="text-danger">gambar taruh sini ae</p>
                             <hr>
-                            <p class="card-text my-3"><?php echo htmlspecialchars($row['deskripsi_produk']); ?></p>
+                            <p class="card-text my-3"><?php echo nl2br(htmlspecialchars($row['deskripsi_produk'])) ?></p>
                             <hr>
                             <div class="row">
                                 <div class="col-sm-6">
