@@ -14,7 +14,7 @@
     <meta name="author" content="">
     <link href="../../css/tsany.css" rel="stylesheet" type="text/css">
 
-    <title>Komputer - Sehati Computer</title>
+    <title>Aksesoris - Sehati Computer</title>
 
     <style>
         .blackbg{
